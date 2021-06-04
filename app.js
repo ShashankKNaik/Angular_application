@@ -6,7 +6,7 @@ const MongoStore = require("connect-mongo")
 const app=express()
 
 const PORT = process.env.PORT || 3000
-const mongoURI='mongodb://localhost:27017/mycart'
+const mongoURI="mongodb+srv://shashankkrishnanaik:cOdlDtJTNMaL2l8W@shashank.n9z04.mongodb.net/sample_mflix?retryWrites=true&w=majority"
 
 // app.use(cors({
 // 	origin:'http://localhost:4200/',    // Angular app running in this address
